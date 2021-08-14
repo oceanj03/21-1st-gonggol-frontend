@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './SubCategory.scss';
 
 class SubCategory extends React.Component {
@@ -7,7 +6,6 @@ class SubCategory extends React.Component {
     const {
       subCategories,
       currentCategory,
-      currentSortBy,
       onChangeSubCategory,
       onChangeFilter,
     } = this.props;
