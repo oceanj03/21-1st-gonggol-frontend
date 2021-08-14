@@ -5,7 +5,7 @@ import './CategoryHeader.scss';
 
 class CategoryHeader extends React.Component {
   render() {
-    const {categoryName, categoryPath, bannerImage, itemCount } =
+    const { categoryName, categoryPath, bannerImage, itemCount } =
       this.props;
     return (
       <div className="categoryHeader">
