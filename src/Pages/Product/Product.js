@@ -89,7 +89,10 @@ class Product extends React.Component {
   onDeleteOptionItem = size => {
     this.setState({
       selectedProducts: this.state.selectedProducts?.filter(product => {
-        if (product.size !== size) return product;
+        if (product.size !== size) {
+          return product;
+        }
+        return null;
       }),
     });
   };
